@@ -1,5 +1,6 @@
 # Veri_snake
 Verilog code to run a basic snake game on a terasic DE0-nano using the FPGA4u shield.
+It can be seen in test on [Youtube][yt].
 
 ## Introduction
 I wrote this when learning HDL out of curiosity. In 2nd year we were given an assignment for which we had to make a snake game using logic gates on Simulink, so I thought it'd be fun to do it in Verilog now.
@@ -69,12 +70,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 
 
-
-[MS5611]: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English "MS5611"
-[MPU-9250]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9250"
-[MPU-9150]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9150"
-[TLV70033DDCR]: http://www.ti.com/product/tlv70033 "TLV70033DDCR"
-[atmega32u4]: http://www.atmel.ch/Images/doc7766.pdf "ATmega16U4/32U4 datasheet"
+[yt]: https://youtu.be/IqZj8MK-kns "Youtube"
 [FPGA4u]: https://fpga4u.epfl.ch "fpga4u"
 [LAP]: https//lap.epfl.ch "LAP"
 [Terasic]: https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=139&No=593 "Terasic"
