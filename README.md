@@ -2,7 +2,7 @@
 Verilog code to run a basic snake game on a terasic DE0-nano using the FPGA4u shield.
 ## Introduction
 I wrote this when learning HDL out of curiosity. In 2nd year we were given an assignment for which we had to make a snake game using logic gates on Simulink, so I thought it'd be fun to do it in Verilog now.
-It is made to run on a [Terasic DE0-Nano][prismino] with an [FPGA4u][FPGA4u] shield.
+It is made to run on a [Terasic DE0-Nano][Terasic] with an [FPGA4u][FPGA4u] shield.
 
 You can find the required source files in this repo.
 This is a very basic version, I might have butchered the logic here and there, and it is far from perfect code. It was learnt and done in less than 2 weeks.
@@ -55,7 +55,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [MPU-9150]: http://www.invensense.com/mems/gyro/nineaxis.html "MPU-9150"
 [TLV70033DDCR]: http://www.ti.com/product/tlv70033 "TLV70033DDCR"
 [atmega32u4]: http://www.atmel.ch/Images/doc7766.pdf "ATmega16U4/32U4 datasheet"
-[attiny4313]: http://www.atmel.com/images/doc8246.pdf "attiny4313 datasheet"
-[PCA9306DP1-G]: http://www.nxp.com/products/interface_and_connectivity/i2c/i2c_voltage_level_translators/PCA9306DP1.html "PCA9306DP1-G"
-[prismino]: https://github.com/Robopoly/PRismino "PRismino"
-[multiwii]: http://www.multiwii.com/software "Multiwii"
+[FPGA4u]: https://fpga4u.epfl.ch "fpga4u"
+[LAP]: https//lap.epfl.ch "LAP"
+[Terasic]: https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=139&No=593 "Terasic"
+[Robopoly]: https://robopoly.epfl.ch "Robopoly"
