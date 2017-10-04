@@ -39,7 +39,12 @@ A counter increments at 50MHz, and the last 6 bits are used as [x,y]. Since it i
 When the head of the snake reaches the food, this increments a counter.
 
 
+## Issues
+### Input bouncing
+Maybe the joystick should be debounced, sometimes the snake doesn't seem to go in the right direction.
 
+### Sudden death
+It's hard to tell with the colors, but it feels like the snake sometimes dies when it shouldn't have had issues.
 
 ## Future tasks
 ### Colors
