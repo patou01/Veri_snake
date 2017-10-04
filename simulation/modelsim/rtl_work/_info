@@ -1,0 +1,140 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patrick/Dropbox/fpga/veri_snack/simulation/modelsim
+vclock_disp
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1506065519
+!i10b 1
+!s100 l=QiSNbbEj>3m7`<OJ82<1
+ISUE]kECzWf`hEHBni`^n52
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clock_disp_v_unit
+S1
+R0
+w1506061244
+8C:/Users/Patrick/Dropbox/fpga/veri_snack/clock_disp.v
+FC:/Users/Patrick/Dropbox/fpga/veri_snack/clock_disp.v
+L0 40
+Z2 OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1506065519.000000
+!s107 C:/Users/Patrick/Dropbox/fpga/veri_snack/clock_disp.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack|C:/Users/Patrick/Dropbox/fpga/veri_snack/clock_disp.v|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack
+Z3 tCvgOpt 0
+vdir_tb
+Z4 !s110 1506082025
+!i10b 1
+!s100 R]`<9jPMN]jblFDVoDi922
+IUGZaFOdzg_dca4]IU<k3C2
+R1
+R0
+Z5 w1506082016
+Z6 8C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v
+Z7 FC:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v
+L0 67
+R2
+r1
+!s85 0
+31
+Z8 !s108 1506082025.000000
+Z9 !s107 C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v|
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v|
+!i113 1
+Z11 o-work work
+R3
+vdirection
+R4
+!i10b 1
+!s100 1BzN=5:hbjR=T0I`>EINT3
+IPCUT:@dIS3Hk74oOK;VOF3
+R1
+R0
+R5
+R6
+R7
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+vscreen_driver
+!s110 1506065619
+!i10b 1
+!s100 foM`0IXnjaLAka0k91_zS2
+IA<^Ookjm`b=8chI`Y<@Y=1
+R1
+R0
+w1506063567
+8C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v
+FC:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1506065619.000000
+!s107 C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v|
+!i113 1
+R11
+R3
+vsnk
+Z12 !s110 1506074447
+!i10b 1
+!s100 ?MHi]B3WDP@Ea^;2LB;<W3
+I0Q?99M2Tdb7`4fa:RlKd;0
+R1
+R0
+Z13 w1506074440
+Z14 8C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v
+Z15 FC:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z16 !s108 1506074447.000000
+Z17 !s107 C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v|
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v|
+!i113 1
+R11
+R3
+vsnk_tb
+R12
+!i10b 1
+!s100 ?oV?clZdchHDDGlQa_9H>2
+IKGABbmb;1Z[HPI4Fo6PoJ1
+R1
+R0
+R13
+R14
+R15
+L0 50
+R2
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+R3

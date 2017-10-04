@@ -1,0 +1,7 @@
+module point_counter
+(
+	input reg [6:0] food,
+	input reg [6:0] head
+	output reg gen
+);
+

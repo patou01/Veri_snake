@@ -1,0 +1,10 @@
+module snake
+#(parameter size = 8, bits = 4)
+(
+	input reg[1:0] direction,
+	output reg [size-1:0][bits-1:0] snk_bits,
+);
+
+
+
+endmodule

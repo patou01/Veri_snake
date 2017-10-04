@@ -1,0 +1,9 @@
+module direction
+(
+	input btn_left;
+	input btn_right;
+	input btn_up;
+	input btn_down;
+);
+
+endmodule

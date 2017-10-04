@@ -1,0 +1,24 @@
+module food_gen
+(
+	input CLK,
+	input gen, // if it must generate new food.
+	output reg [2:0] x,
+	output reg [2:0] y,
+);
+
+
+integer count;
+
+initial 
+	begin
+		count = 0;
+	end
+
+
+always @ (posedge CLK)
+	begin
+		count = count + 1;
+		
+	end
+
+endmodule

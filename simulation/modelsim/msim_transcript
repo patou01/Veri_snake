@@ -1,0 +1,262 @@
+# Reading C:/intelFPGA_pro/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do snake_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5c Lib Mapping Utility 2017.01 Jan 23 2017
+# vmap work rtl_work 
+# Copying C:/intelFPGA_pro/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack {C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 09:31:59 on Sep 22,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack" C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v 
+# -- Compiling module screen_driver
+# 
+# Top level modules:
+# 	screen_driver
+# End time: 09:31:59 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack {C:/Users/Patrick/Dropbox/fpga/veri_snack/clock_disp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 09:31:59 on Sep 22,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack" C:/Users/Patrick/Dropbox/fpga/veri_snack/clock_disp.v 
+# -- Compiling module clock_disp
+# 
+# Top level modules:
+# 	clock_disp
+# End time: 09:31:59 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack {C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 09:31:59 on Sep 22,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack" C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v 
+# -- Compiling module snk_printer
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(22): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(34): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(48): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(49): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(50): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(51): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(52): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(53): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(54): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(55): (vlog-2110) Illegal reference to net "leds".
+# ** Error: C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v(56): (vlog-2110) Illegal reference to net "leds".
+# End time: 09:31:59 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: C:/intelFPGA_pro/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./snake_run_msim_rtl_verilog.do line 10
+# C:/intelFPGA_pro/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/Patrick/Dropbox/fpga/veri_snack {C:/Users/Patrick/Dropbox/fpga/veri_snack/snk2leds.v}"
+# Load canceled
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 09:33:12 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v 
+# -- Compiling module direction
+# -- Compiling module dir_tb
+# 
+# Top level modules:
+# 	direction
+# 	dir_tb
+# End time: 09:33:12 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.direction
+# vsim work.direction 
+# Start time: 09:33:14 on Sep 22,2017
+# Loading work.direction
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 09:33:39 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/screen_driver.v 
+# -- Compiling module screen_driver
+# 
+# Top level modules:
+# 	screen_driver
+# End time: 09:33:39 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dir_tb
+# vsim work.dir_tb 
+# Start time: 09:35:17 on Sep 22,2017
+# Loading work.dir_tb
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 09:35:30 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v 
+# -- Compiling module direction
+# -- Compiling module dir_tb
+# 
+# Top level modules:
+# 	dir_tb
+# End time: 09:35:30 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave -position insertpoint  \
+sim:/dir_tb/direction_tb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Patrick  Hostname: PATRICK-PC  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlft29w444".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft29w444
+add wave -position insertpoint  \
+sim:/dir_tb/btn_tb
+run
+vsim work.dir_tb
+# vsim work.dir_tb 
+# Start time: 10:21:36 on Sep 22,2017
+# Loading work.dir_tb
+# Loading work.direction
+add wave -position insertpoint  \
+sim:/dir_tb/DUT/btns
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Patrick  Hostname: PATRICK-PC  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlftm8092n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm8092n
+add wave -position insertpoint  \
+sim:/dir_tb/DUT/dir
+add wave -position insertpoint  \
+sim:/dir_tb/btn_tb
+add wave -position insertpoint  \
+sim:/dir_tb/direction_tb
+run
+vsim work.direction
+# vsim work.direction 
+# Start time: 10:29:33 on Sep 22,2017
+# Loading work.direction
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:29:45 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v 
+# -- Compiling module direction
+# -- Compiling module dir_tb
+# 
+# Top level modules:
+# 	dir_tb
+# End time: 10:29:45 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dir_tb
+# vsim work.dir_tb 
+# Start time: 10:30:00 on Sep 22,2017
+# Loading work.dir_tb
+# Loading work.direction
+add wave -position insertpoint  \
+sim:/dir_tb/DUT/dir
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Patrick  Hostname: PATRICK-PC  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlftgeckxn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgeckxn
+add wave -position insertpoint  \
+sim:/dir_tb/DUT/btns
+run
+# Load canceled
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:58:27 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v 
+# -- Compiling module snk
+# -- Compiling module snk_tb
+# 
+# Top level modules:
+# 	snk_tb
+# End time: 11:58:27 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.snk_tb
+# vsim work.snk_tb 
+# Start time: 11:58:39 on Sep 22,2017
+# Loading work.snk_tb
+# Loading work.snk
+add wave -position insertpoint  \
+sim:/snk_tb/DUT/head
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Patrick  Hostname: PATRICK-PC  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlftswb4fx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftswb4fx
+add wave -position insertpoint  \
+sim:/snk_tb/DUT/x
+add wave -position insertpoint  \
+sim:/snk_tb/DUT/dir
+add wave -position insertpoint  \
+sim:/snk_tb/DUT/CLK
+add wave -position insertpoint  \
+sim:/snk_tb/snk_bits
+run
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:00:47 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/snk.v 
+# -- Compiling module snk
+# -- Compiling module snk_tb
+# 
+# Top level modules:
+# 	snk_tb
+# End time: 12:00:47 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.snk_tb
+# vsim work.snk_tb 
+# Start time: 12:00:56 on Sep 22,2017
+# Loading work.snk_tb
+# Loading work.snk
+add wave -position insertpoint  \
+sim:/snk_tb/snk_bits
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Patrick  Hostname: PATRICK-PC  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlftsfvsfr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsfvsfr
+add wave -position insertpoint  \
+sim:/snk_tb/dir
+run
+add wave -position insertpoint  \
+sim:/snk_tb/DUT/head
+add wave -position insertpoint  \
+sim:/snk_tb/DUT/CLK
+restart
+run
+vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:07:05 on Sep 22,2017
+# vlog -reportprogress 300 -work work C:/Users/Patrick/Dropbox/fpga/veri_snack/direction.v 
+# -- Compiling module direction
+# -- Compiling module dir_tb
+# 
+# Top level modules:
+# 	dir_tb
+# End time: 14:07:05 on Sep 22,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dir_tb
+# vsim work.dir_tb 
+# Start time: 14:07:15 on Sep 22,2017
+# Loading work.dir_tb
+# Loading work.direction
+add wave -position insertpoint  \
+sim:/dir_tb/DUT/dir
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Patrick  Hostname: PATRICK-PC  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlft1kfxt8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1kfxt8
+add wave -position insertpoint  \
+sim:/dir_tb/DUT/btns
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 21:55:20 on Sep 22,2017, Elapsed time: 7:48:05
+# Errors: 12, Warnings: 3
